@@ -25,8 +25,6 @@ public class HW
         long[] arr = new long [n]; //массив значения времени касс
         long znachenie = 0;
         int index_arr;
-        for (int i = 0; i < n; i++) 
-            arr[i] = 0;
         for (int i = 0; i < customers.Length; i++)
         {
             index_arr = index_min(arr);
